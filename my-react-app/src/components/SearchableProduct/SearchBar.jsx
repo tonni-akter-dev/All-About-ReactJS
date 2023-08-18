@@ -1,4 +1,4 @@
-export function SearchBar({
+/* export function SearchBar({
   filterText,
   inStockOnly,
   onFilterTextChange,
@@ -23,3 +23,32 @@ export function SearchBar({
     </form>
   );
 }
+ */
+import React from "react";
+
+const SearchBar = ({
+  products,
+  oninpuFieldChange,
+  onStockOnly,
+  searchText,
+  inStockOnly,
+}) => {
+  return (
+    <div>
+      <input
+        type="text"
+        placeholder="Search your product here"
+        onChange={(e) => oninpuFieldChange(e.target.value)}
+        value={searchText}
+      />
+      <input
+        type="checkbox"
+        onChange={(e) => onStockOnly(e.target.checked)}
+        value={inStockOnly}
+      />
+      <span>Only show products in stock</span>
+    </div>
+  );
+};
+
+export default SearchBar;
