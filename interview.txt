@@ -1,6 +1,16 @@
 1.Why immutability is important ?
 -->
-2.
+2.Props vs State ?
+-->
+props:
+    i.   props is a way to pass data from parent to child components.
+   ii.  A parent component can pass data to it's child components.
+   iii. A child component is a reusable piece of UI  that can access data(props) from it's parent component.
+   iv.  Props are readOnly. they are used to pass data from parent to child in a unidirectional way.
+state:
+   i.  state refers to the data that is managed within a component and can change over time.
+   ii. state is used to managed the internal data  and dynamic behaviour of a component.
+
 3.
 4.
 5.
