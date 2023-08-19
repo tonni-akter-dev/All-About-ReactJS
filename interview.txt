@@ -11,10 +11,20 @@ state:
    i.  state refers to the data that is managed within a component and can change over time.
    ii. state is used to managed the internal data  and dynamic behaviour of a component.
 
-3.
-4.
-5.
-6.
+3.Default vs named exports 
+--> A file can have no more than one default export, but it can have as many named exports as you like.When you write a default import, you can put any name you want after import. For example, you could write [import Banana from './Button.js'] instead and it would still provide you with the same default export. In contrast, with named imports, the name has to match on both sides. That’s why they are called named imports!
+
+4.what is JSX?
+--> JSX is a syntax extension for javascript. JSX allows you to write html code into your js file.This allows you to insert dynamic content into your UI:
+5.what is pure function?
+--> pure function is a function with the following characteristics:
+
+i. It minds its own business. It does not change any objects or variables that existed before it was called.
+ii. Same inputs, same output. Given the same inputs, a pure function should always return the same result.
+
+
+
+6. what is mutation?
 7.
 8.
 9.

@@ -1,4 +1,5 @@
 import "./App.css";
+import Gallery from "./components/Profile/Gallery ";
 import FilterableProductTable from "./components/SearchableProduct/FilterableProductTable";
 
 // import Game from "./components/TicTacToe/Game";
@@ -17,7 +18,8 @@ function App() {
       {/* <p className="read-the-docs">lets Build a tic-tac-toe game</p>
       <Game />
       <Winner /> */}
-      <FilterableProductTable products={PRODUCTS} />
+      {/* <FilterableProductTable products={PRODUCTS} /> */}
+      <Gallery />
     </>
   );
 }
