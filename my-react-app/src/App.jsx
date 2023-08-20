@@ -1,5 +1,7 @@
 import "./App.css";
-import Gallery from "./components/Profile/Gallery ";
+import EventHandler from "./components/EventHandler/EventHandler";
+import Toolbar from "./components/EventHandler/Toolbar";
+import Gallery from "./components/EventHandler/Gallery";
 import FilterableProductTable from "./components/SearchableProduct/FilterableProductTable";
 
 // import Game from "./components/TicTacToe/Game";
@@ -19,7 +21,10 @@ function App() {
       <Game />
       <Winner /> */}
       {/* <FilterableProductTable products={PRODUCTS} /> */}
-      <Gallery />
+      {/* <Gallery /> */}
+      {/* <EventHandler message="Playing"> Play movie </EventHandler> */}
+      {/* <Toolbar/> */}
+      <Gallery/>
     </>
   );
 }
