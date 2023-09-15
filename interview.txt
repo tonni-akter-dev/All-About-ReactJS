@@ -11,7 +11,7 @@ state:
    i.  state refers to the data that is managed within a component and can change over time.
    ii. state is used to managed the internal data  and dynamic behaviour of a component.
 
-3.Default vs named exports 
+3.Default vs named exports
 --> A file can have no more than one default export, but it can have as many named exports as you like.When you write a default import, you can put any name you want after import. For example, you could write [import Banana from './Button.js'] instead and it would still provide you with the same default export. In contrast, with named imports, the name has to match on both sides. That’s why they are called named imports!
 
 4.what is JSX?
@@ -60,3 +60,23 @@ Recap...........
     -->The useState Hook returns a pair of values: the current state and the function to update it.
     -->You can have more than one state variable. Internally, React matches them up by their order.
     -->State is private to the component. If you render it in two places, each copy gets its own state.
+
+
+16. conditional rendering.module-56
+--> conditional rendering
+/**
+ * CONDITIONAL RENDERING
+ * 1. use if or if else to set a variable that will contain an element, components
+ * 2. ternary operator: condition ? 'for true' : 'false'
+ * 3. Logical &&: (if the condition is true then the next thing will be displayed)
+ * 4. Logical ||: (if the condition is false then the next thing will be displayed)
+ *
+ * */
+
+/**
+ * CONDITIONAL CSS Class
+ * 1. use ternary
+ * 2. ternary inside template string
+ * */
+
+17. prop drilling--solution............> context api
